@@ -1,2 +1,11 @@
 /* @HOME */
 /* ********** */
+body {
+  background-color: map-get($colores, azul);
+}
+@media only screen and (min-width: map-get($breakpoints, smartphone)) and (orientation: portrait) {
+    .banner img {
+        border-top-right-radius: 150px;
+      }
+      
+}
